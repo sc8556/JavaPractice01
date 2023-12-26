@@ -68,6 +68,7 @@ public class CalenderCal {
                 }
             }
         }
+        // 1년 1월 1일부터 입력한 날짜까지의 일 수 계산하기
         int total_days = 0;
         total_days = total_days + (year-1) * 365;
         total_days = total_days + (year/4) - (year/100) + (year/400);
