@@ -83,7 +83,7 @@ public class CalenderCal {
             if (isthirtyDay == true){
                 total_days = total_days + 30;
             }else{
-                if(i == 2){
+                if(i == 2){ // 2월일 경우
                     total_days = total_days + 28;
                 }else {
                     total_days = total_days + 31;
