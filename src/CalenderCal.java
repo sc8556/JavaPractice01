@@ -1,9 +1,11 @@
-import java.util.Scanner;
+
 
 /*
 사용자로부터 올바른 년(1~), 월(1~12), 일(1~31)을 입력 받아서 출력하는 프로그램을 작성하시오.
 입력값이 유요한 범위 내에 있지 않으면 올바른 값을 입력 받을 때까지 반복하시오.
  */
+
+import java.util.Scanner;
 public class CalenderCal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // 객체변수 생성
@@ -80,7 +82,7 @@ public class CalenderCal {
             if (isthirtyDay == true){
                 total_days = total_days + 30;
             }else{
-                if(month == 2){
+                if(i == 2){
                     total_days = total_days + 28;
                 }else {
                     total_days = total_days + 31;
