@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class AccountTest {
     public static void main(String[] args) {
         Account account01 = new Account(0, "001"); // Account 클래스 객체변수 생성, 잔액 초기화
